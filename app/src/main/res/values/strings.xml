@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">NoticeBoard</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="open">drawer open</string>
+    <string name="close">drawer close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact">
+
+        PRINCIPAL:\n
+            Bilash Luitel\n
+            Birat Multiple College\n
+            Manghad, BRT\n\n
+
+        Phone Number:\n
+            021-420900, 021-420902\n\n
+
+        E-mail:\n
+            bmc@gmail.com\n
+            principal@bmc.edu.np\n\n
+
+        Head of Department:\n
+           CSIT: Amit Ghimire\n
+           Phone:\n\n
+
+           FOOD: Hemant Regmi\n
+           Phone:\n\n
+
+           Microbiology: Manish Dahal\n
+           Phone:\n\n
+
+
+
+
+    </string>
+    <string name="Description">Birat Multiple College affiliated to Tribhuvan University is established in 2069 B.S. promoted by a group of experienced and dedicated academicians professionals. The goal of the college is to provide a high quality education that will enable the students to embrace the challenges of the modern world. The college focuses much on management and information technology in its academic voyage along with experimental and experiential learning. Apart from academic activities Birat Multiple college is associated with social program, blood donation program, quiz contestant and many more.  The college has organizational tie-ups with various software companies, IT consultancies, food manufacturing industries, factories and microbiologist industries in order to provide platform to conduct internship as well as option for job placement.</string>
+
+</resources>

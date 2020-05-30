@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ettime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:textSize="10sp"
+            android:hint="time" />
+
+        <TextView
+            android:id="@+id/etdate"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="10sp"
+            android:layout_marginTop="3dp"
+            android:layout_height="match_parent"
+            android:hint="date" />
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/etname"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="15sp"
+                android:layout_marginTop="3dp"
+                android:layout_height="match_parent"
+                android:hint="Posted By : " />
+
+            <TextView
+                android:id="@+id/ettitle"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp"
+                android:layout_marginTop="3dp"
+                android:layout_height="match_parent"
+                android:hint="Title : " />
+            <TextView
+                android:id="@+id/etnotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="notice"
+                android:padding="10dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

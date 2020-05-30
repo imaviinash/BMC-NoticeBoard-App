@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/new_login_gradients"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="2dp"
+       android:gravity="center"
+       android:orientation="vertical">
+
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Email"
+       android:drawableLeft="@drawable/ic_person"
+       android:layout_marginTop="5dp"
+       android:id="@+id/email"/>
+
+</android.support.design.widget.TextInputLayout>
+      <android.support.design.widget.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <EditText
+       android:layout_width="match_parent"
+       android:layout_marginTop="5dp"
+       android:id="@+id/password"
+            android:drawableLeft="@drawable/ic_lock"
+       android:layout_height="wrap_content"
+       android:hint="Password"/>
+
+   </android.support.design.widget.TextInputLayout>
+
+
+       <RadioGroup
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/radiogroup1">
+
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="20dp"
+               android:id="@+id/rbtnadmin1"
+               android:text="Admin"/>
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:id="@+id/rbtnuser1"
+               android:layout_marginLeft="20dp"
+               android:text="User"/>
+
+       </RadioGroup>
+
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:id="@+id/btnLogin"
+       android:background="#fff1f1"
+       android:layout_marginTop="5dp"
+       android:text="Sign In"
+       />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+
+           android:id="@+id/tvforgotpassword"
+           android:text="Forgot Password?   Click Here To Reset"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_marginTop="5dp"
+       android:textAlignment="center"
+       android:layout_height="wrap_content"
+       android:text="Don't Have Account Yet?"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:text="Sign Up"
+       android:layout_marginTop="2dp"
+       android:id="@+id/btnSignUp"
+       android:background="#fff1f1"
+       />
+
+
+
+
+</LinearLayout>
+</LinearLayout>

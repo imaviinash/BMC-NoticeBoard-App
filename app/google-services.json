@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "184454714970",
+    "firebase_url": "https://noticboardproject.firebaseio.com",
+    "project_id": "noticboardproject",
+    "storage_bucket": "noticboardproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184454714970:android:47f50e72340e1e50",
+        "android_client_info": {
+          "package_name": "tk.rngm33.noticeboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184454714970-ets8hbu739fmogk1crs5vm3kh5i5jc64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbjdndGp8D0d9J6VtMNB5hrDmeohpzKd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

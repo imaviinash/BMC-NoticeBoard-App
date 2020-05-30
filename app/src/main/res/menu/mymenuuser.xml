@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/homeu" android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/passwordchange" android:title="Password change"
+        android:icon="@drawable/ic_unlock" />
+    <item android:id="@+id/sendfcbk" android:title="Send Feedback"
+        android:icon="@drawable/ic_feedback"></item>
+
+    <item android:id="@+id/profileu" android:title="My Profile"
+        android:icon="@drawable/ic_profile" />
+    <item android:id="@+id/contactu" android:title="Contact"
+        android:icon="@drawable/ic_contact"/>
+    <item android:id="@+id/aboutusu" android:title="About us"
+        android:icon="@drawable/ic_develop"/>
+    <item android:id="@+id/logoutu" android:title="Logout"
+        android:icon="@drawable/ic_out"/>
+</menu>

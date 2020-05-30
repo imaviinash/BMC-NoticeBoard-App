@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="@drawable/new_login_gradients">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_person"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="5dp"
+        android:id="@+id/emaill"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:id="@+id/password1"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/radiogroup"
+        android:orientation="horizontal">
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:id="@+id/rbtnadmin"
+        android:text="Admin"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/rbtnuser"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:text="User"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/Signup"
+        android:background="#fff1f1"
+        android:layout_marginTop="5dp"
+        android:text="Sign Up"/>
+
+
+
+</LinearLayout>
+</LinearLayout>

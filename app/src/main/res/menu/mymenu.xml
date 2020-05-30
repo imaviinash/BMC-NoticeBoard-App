@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home" android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/addnotice" android:title="Add Notice"
+        android:icon="@drawable/ic_add"></item>
+
+    <item android:id="@+id/viewmipost" android:title="View My Post"
+        android:icon="@drawable/ic_view"></item>
+    <item android:id="@+id/passwordchange" android:title="Password change"
+       android:icon="@drawable/ic_unlock" />
+    <item android:id="@+id/profile" android:title="My Profile"
+       android:icon="@drawable/ic_profile" />
+    <item android:id="@+id/contact" android:title="Contact"
+        android:icon="@drawable/ic_contact"/>
+    <item android:id="@+id/aboutus" android:title="About us"
+        android:icon="@drawable/ic_develop"/>
+    <item android:id="@+id/logout" android:title="Logout"
+        android:icon="@drawable/ic_out"/>
+
+
+</menu>
